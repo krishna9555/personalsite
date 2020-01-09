@@ -1,0 +1,53 @@
+favicons are the icons displayed on the tabs to look more prettier.
+
+div tag divides up a portion of a screen according to the specifics and encloses the content
+which we want inside it.
+
+The speciaity of div is that if we increase its dimensions than it pushes away the other content
+away making it to scroll over to see the other part which makes the page look nicer.
+
+Padding is the space of the content from all its borders.
+
+every html element is enclosed under a box and we can manipulate these dimensions to make them
+look better, ex the borders.
+
+margin is the buffer zone to separate the different elements for spacing. Margin => Borders => padding m.
+
+block elements are the elements which take up the whole width of the page preventing any other element to come
+on the same line ex list, p, divs, forms etc.
+
+span element is used to make an element inline therby giving it the only space it requires and allowing other
+elements to sit next to them and style a part of a same element differently for ex in p element.
+ex to style just the pro part of the word programmar we can use the span element.
+like <p><span>portion</span>grammar</p> and give it a class to style it. the span element takes
+up only the space it needs unlike block elements which take up the entire width. These elements are
+called inline elements. spans, images, anchors.
+
+we can use the display property to make an inline element a block element and vice-versa. but without the display
+property set to block we cannot change the dimensions of an inline element. And if we change the inline to block
+we can change its dimensions but we would lose the property of allowing  other elemts to sit next to them.
+same goes for the block elements.
+
+but if we want an element to have an inline property and at the same time we can change its dimensions we can use
+another display property known as inline-block.
+
+images are like inline-block elements as we are able to change their dimensions and they also get displayed
+as they are like inline elements nex to each other.
+
+display to none hides the element which we can use to hide things in our website.
+
+positioning in css is static(default p by browser i.e children sit on top of their parents.)
+relative positioning uses four attributes left right top bottom and accordingly we position our elements.
+
+when we use absolute positioning the element gets freed from the natural html flow and is free from everyting.
+
+To align everything to center we can use text align to center in body element, but it doesnt work if
+there are any block elements with some specified width. To align them center we use margin to differently
+settings like auto.
+
+float property floats the element to either to the left or to the right. Its used when we want to wrap text
+around images we can do so by floating the image to the left thus my freeing it from the normal document flow
+which causes the text to display to its right.
+
+and marking the clear proper to either left or right means clearing it left or right margin thus making the text
+appear at the bottom. it is like anti float. as shown in the para class in the styles.css file.
