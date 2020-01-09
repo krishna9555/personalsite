@@ -25,15 +25,48 @@ h3 {
   padding: 20px;
 }
 
+.list{
+  text-align: right;
+  margin-right: 200px;
+}
+
+li{
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-family: 'Happy Monkey', cursive;
+  display: inline-block;
+  list-style: none;
+  text-align: right;
+  padding: 20px;
+  margin-top: 20px;
+  color: #66BFBF;
+}
+
+.nav{
+  text-decoration: none;
+  color: #66BFBF;
+}
+
+.nav:hover{
+  color: #306156;
+}
+
+
+.about{
+  text-decoration: none;
+  color: #306156;
+}
+
 .top-container {
   /*background-color: #cbf1f5;*/
   background-color: #EAF6F6;
   position: relative;
-  padding-top: 135px;
+  padding-top: 40px;
 }
 
 .middle-container {
-  margin: 100px;
+  /*margin: 100px;*/
+  background-color: #FFFAFA;
 }
 
 .bottom-container {
@@ -43,6 +76,7 @@ h3 {
 }
 
 .mountain {
+  margin-top: 50px;
   height: 380px;
   width: 650px;
 }
@@ -51,8 +85,8 @@ h3 {
   width: 150px;
   height:100px;
   position: absolute;
-  right: 20%;
-  top: 20px;
+  left: 18%;
+  top: 70px;
   margin-top: 20px;
 }
 
@@ -66,6 +100,7 @@ h3 {
 
 .my-img {
   border-radius: 100%;
+  margin-top: 50px;
 }
 
 .intro{
@@ -199,30 +234,31 @@ p{
 
 
 .myButton {
-	box-shadow:inset 0px 1px 0px 0px #739fd4;
-	background:linear-gradient(to bottom, #3d94f6 5%, #1fcfc0 100%);
-	background-color:#3d94f6;
-	border-radius:6px;
-	border:1px solid #8fb1e0;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family: "Montserrat", sans-serif;
-	font-size:15px;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #7a9dbf;
+  box-shadow:inset 0px 1px 0px 0px #739fd4;
+  background:linear-gradient(to bottom, #3d94f6 5%, #1fcfc0 100%);
+  background-color:#3d94f6;
+  border-radius:6px;
+  border:1px solid #8fb1e0;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #7a9dbf;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #1fcfc0 5%, #3d94f6 100%);
-	background-color:#1fcfc0;
+  background:linear-gradient(to bottom, #1fcfc0 5%, #3d94f6 100%);
+  background-color:#1fcfc0;
 }
 .myButton:active {
-	position:relative;
-	top:1px;
+  position:relative;
+  top:1px;
 }
 
 .button{
   padding-top: 40px;
+  padding-bottom: 40px;
 }
